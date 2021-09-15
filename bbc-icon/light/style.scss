@@ -1,0 +1,234 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1qljux');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1qljux#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?1qljux') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?1qljux') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?1qljux##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bbc-angle-double-left {
+  &:before {
+    content: $bbc-angle-double-left; 
+  }
+}
+.bbc-angle-double-right {
+  &:before {
+    content: $bbc-angle-double-right; 
+  }
+}
+.bbc-angle-left {
+  &:before {
+    content: $bbc-angle-left; 
+  }
+}
+.bbc-angle-right {
+  &:before {
+    content: $bbc-angle-right; 
+  }
+}
+.bbc-arrow-alt-to-top {
+  &:before {
+    content: $bbc-arrow-alt-to-top; 
+  }
+}
+.bbc-arrow-left {
+  &:before {
+    content: $bbc-arrow-left; 
+  }
+}
+.bbc-arrow-right {
+  &:before {
+    content: $bbc-arrow-right; 
+  }
+}
+.bbc-arrow-to-top {
+  &:before {
+    content: $bbc-arrow-to-top; 
+  }
+}
+.bbc-calendar {
+  &:before {
+    content: $bbc-calendar; 
+  }
+}
+.bbc-calendar-alt {
+  &:before {
+    content: $bbc-calendar-alt; 
+  }
+}
+.bbc-calendar-check {
+  &:before {
+    content: $bbc-calendar-check; 
+  }
+}
+.bbc-check {
+  &:before {
+    content: $bbc-check; 
+  }
+}
+.bbc-chevron-left {
+  &:before {
+    content: $bbc-chevron-left; 
+  }
+}
+.bbc-chevron-right {
+  &:before {
+    content: $bbc-chevron-right; 
+  }
+}
+.bbc-comment-alt-dots {
+  &:before {
+    content: $bbc-comment-alt-dots; 
+  }
+}
+.bbc-comments-alt {
+  &:before {
+    content: $bbc-comments-alt; 
+  }
+}
+.bbc-envelope {
+  &:before {
+    content: $bbc-envelope; 
+  }
+}
+.bbc-eye {
+  &:before {
+    content: $bbc-eye; 
+  }
+}
+.bbc-globe {
+  &:before {
+    content: $bbc-globe; 
+  }
+}
+.bbc-globe-asia {
+  &:before {
+    content: $bbc-globe-asia; 
+  }
+}
+.bbc-heart {
+  &:before {
+    content: $bbc-heart; 
+  }
+}
+.bbc-home {
+  &:before {
+    content: $bbc-home; 
+  }
+}
+.bbc-link {
+  &:before {
+    content: $bbc-link; 
+  }
+}
+.bbc-lock-alt {
+  &:before {
+    content: $bbc-lock-alt; 
+  }
+}
+.bbc-long-arrow-left {
+  &:before {
+    content: $bbc-long-arrow-left; 
+  }
+}
+.bbc-long-arrow-right {
+  &:before {
+    content: $bbc-long-arrow-right; 
+  }
+}
+.bbc-map-marker-alt {
+  &:before {
+    content: $bbc-map-marker-alt; 
+  }
+}
+.bbc-mobile {
+  &:before {
+    content: $bbc-mobile; 
+  }
+}
+.bbc-mobile-alt {
+  &:before {
+    content: $bbc-mobile-alt; 
+  }
+}
+.bbc-phone {
+  &:before {
+    content: $bbc-phone; 
+  }
+}
+.bbc-phone-volume {
+  &:before {
+    content: $bbc-phone-volume; 
+  }
+}
+.bbc-play {
+  &:before {
+    content: $bbc-play; 
+  }
+}
+.bbc-plus {
+  &:before {
+    content: $bbc-plus; 
+  }
+}
+.bbc-search {
+  &:before {
+    content: $bbc-search; 
+  }
+}
+.bbc-share-alt {
+  &:before {
+    content: $bbc-share-alt; 
+  }
+}
+.bbc-star {
+  &:before {
+    content: $bbc-star; 
+  }
+}
+.bbc-sync {
+  &:before {
+    content: $bbc-sync; 
+  }
+}
+.bbc-times {
+  &:before {
+    content: $bbc-times; 
+  }
+}
+.bbc-trash-alt {
+  &:before {
+    content: $bbc-trash-alt; 
+  }
+}
+.bbc-user {
+  &:before {
+    content: $bbc-user; 
+  }
+}
+.bbc-users {
+  &:before {
+    content: $bbc-users; 
+  }
+}
+

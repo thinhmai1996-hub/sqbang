@@ -1,0 +1,334 @@
+/* Bootstrap 4 for IE9 - v4.1.1 */
+/* https://github.com/coliff/bootstrap-ie8 */
+.card-group .card, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .nav-link {
+  float: left; }
+
+.row, .container-fluid, .container, section, footer, main, aside, .navbar-nav, .navbar-collapse {
+  display: block; }
+
+.row::after, .btn-group::after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+.input-group {
+  display: table; }
+  .input-group .input-prepend, .input-group .input-append {
+    display: table-cell;
+    vertical-align: middle; }
+  .input-group .form-control {
+    display: table-cell;
+    width: 100%;
+    z-index: 2; }
+
+.modal.fade .modal-dialog {
+  -ms-transform: translate(0, -25%); }
+
+.modal.show .modal-dialog {
+  -ms-transform: translate(0, 0); }
+
+.custom-select {
+  background-image: none;
+  padding-right: .75rem; }
+
+.img-fluid[src$=".svg"] {
+  width: 100%; }
+
+.table-responsive {
+  min-height: 0%; }
+
+/* see https://github.com/twbs/bootstrap/issues/14837 */
+.progress {
+  display: block; }
+
+.progress-bar {
+  float: left;
+  font-size: 12px;
+  line-height: 20px;
+  width: 0;
+  text-align: center;
+  height: 100%; }
+
+.d-flex, .d-sm-flex, .d-md-flex, .d-lg-flex, .d-xl-flex, .d-print-flex {
+  display: block !important; }
+
+.d-inline-flex, .d-sm-inline-flex, .d-md-inline-flex, .d-lg-inline-flex, .d-xl-inline-flex, .d-print-inline-flex {
+  display: inline-block !important; }
+
+.flex-row .div {
+  display: inline-block; }
+
+.flex-row-reverse {
+  text-align: right; }
+  .flex-row-reverse .div {
+    display: inline-block;
+    float: right; }
+
+.justify-content-start div {
+  display: inline-block; }
+
+.justify-content-end {
+  text-align: right; }
+  .justify-content-end div {
+    display: inline-block;
+    margin-right: 0;
+    float: right; }
+
+.justify-content-center {
+  text-align: center; }
+  .justify-content-center div {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; }
+
+.justify-content-between {
+  text-justify: distribute-all-lines; }
+  .justify-content-between div {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify; }
+
+/* see https://stackoverflow.com/questions/6865194/fluid-width-with-equally-spaced-divs */
+.justify-content-around {
+  text-align: justify;
+  text-justify: distribute-all-lines; }
+  .justify-content-around div {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify; }
+
+[class^="justify-content-"] div {
+  display: inline-block; }
+
+/** Carousel - Hide indicators and controls as the carousel doesn't work * */
+.carousel-indicators, .carousel-control-prev, .carousel-control-next {
+  display: none; }
+
+.btn-link.disabled, .btn-link:disabled {
+  text-decoration: none; }
+
+.modal-header .close {
+  margin: -48px -16px -16px auto; }
+
+.btn-group, .btn-group-vertical {
+  display: inline;
+  vertical-align: baseline; }
+
+.btn-group .btn + .btn, .btn-group .btn + .btn-group {
+  margin-left: -5px; }
+
+.btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group {
+  margin-left: -5px; }
+
+.btn-group-vertical .btn + .btn, .btn-group-vertical .btn + .btn-group {
+  margin-left: -5px; }
+
+.btn-group-vertical .btn-group + .btn, .btn-group-vertical .btn-group + .btn-group {
+  margin-left: -5px; }
+
+.navbar-expand-sm .navbar-collapse, .navbar-expand-md .navbar-collapse, .navbar-expand-lg .navbar-collapse, .navbar-expand-xl .navbar-collapse, .navbar-expand .navbar-collapse {
+  display: block !important; }
+
+.navbar > .container, .navbar > .container-fluid {
+  display: block; }
+
+.nav, .navbar {
+  display: block; }
+
+.nav-link {
+  padding: 8px 16px; }
+
+.navbar-brand {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 16px;
+  font-size: 20px;
+  float: left; }
+
+.navbar:not(.navbar-expand-sm):not(.navbar-expand-md):not(.navbar-expand-lg):not(.navbar-expand-xl):not(.navbar-expand) .nav-link {
+  float: none; }
+
+.row-list::after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+.row-list > li {
+  float: left; }
+
+.ie9 .btn-js-select, .ie9 .js-select.form-control:not(.btn-group) {
+  background-image: url(../img/caret.png) !important;
+  background-size: 10px 10px; }
+
+.form-control {
+  min-height: 35px; }
+
+.input-group .input-group-text {
+  height: 36px;
+  display: block; }
+
+.form-label-3 .col-form-label {
+  width: 3em; }
+
+.form-label-4 .col-form-label {
+  width: 4em; }
+
+.form-label-5 .col-form-label {
+  width: 5em; }
+
+.form-label-6 .col-form-label {
+  width: 6em; }
+
+.form-label-7 .col-form-label {
+  width: 7em; }
+
+@media (min-width: 576px) {
+  .form-sm-label-3 .col-form-label {
+    width: 3em; } }
+
+@media (min-width: 576px) {
+  .form-sm-label-4 .col-form-label {
+    width: 4em; } }
+
+@media (min-width: 576px) {
+  .form-sm-label-5 .col-form-label {
+    width: 5em; } }
+
+@media (min-width: 576px) {
+  .form-sm-label-6 .col-form-label {
+    width: 6em; } }
+
+@media (min-width: 576px) {
+  .form-sm-label-7 .col-form-label {
+    width: 7em; } }
+
+@media (min-width: 768px) {
+  .form-md-label-3 .col-form-label {
+    width: 3em; } }
+
+@media (min-width: 768px) {
+  .form-md-label-4 .col-form-label {
+    width: 4em; } }
+
+@media (min-width: 768px) {
+  .form-md-label-5 .col-form-label {
+    width: 5em; } }
+
+@media (min-width: 768px) {
+  .form-md-label-6 .col-form-label {
+    width: 6em; } }
+
+@media (min-width: 768px) {
+  .form-md-label-7 .col-form-label {
+    width: 7em; } }
+
+@media (min-width: 992px) {
+  .form-lg-label-3 .col-form-label {
+    width: 3em; } }
+
+@media (min-width: 992px) {
+  .form-lg-label-4 .col-form-label {
+    width: 4em; } }
+
+@media (min-width: 992px) {
+  .form-lg-label-5 .col-form-label {
+    width: 5em; } }
+
+@media (min-width: 992px) {
+  .form-lg-label-6 .col-form-label {
+    width: 6em; } }
+
+@media (min-width: 992px) {
+  .form-lg-label-7 .col-form-label {
+    width: 7em; } }
+
+@media (min-width: 1200px) {
+  .form-xl-label-3 .col-form-label {
+    width: 3em; } }
+
+@media (min-width: 1200px) {
+  .form-xl-label-4 .col-form-label {
+    width: 4em; } }
+
+@media (min-width: 1200px) {
+  .form-xl-label-5 .col-form-label {
+    width: 5em; } }
+
+@media (min-width: 1200px) {
+  .form-xl-label-6 .col-form-label {
+    width: 6em; } }
+
+@media (min-width: 1200px) {
+  .form-xl-label-7 .col-form-label {
+    width: 7em; } }
+
+@media (min-width: 1300px) {
+  .form-mxl-label-3 .col-form-label {
+    width: 3em; } }
+
+@media (min-width: 1300px) {
+  .form-mxl-label-4 .col-form-label {
+    width: 4em; } }
+
+@media (min-width: 1300px) {
+  .form-mxl-label-5 .col-form-label {
+    width: 5em; } }
+
+@media (min-width: 1300px) {
+  .form-mxl-label-6 .col-form-label {
+    width: 6em; } }
+
+@media (min-width: 1300px) {
+  .form-mxl-label-7 .col-form-label {
+    width: 7em; } }
+
+@media (min-width: 1600px) {
+  .form-xxl-label-3 .col-form-label {
+    width: 3em; } }
+
+@media (min-width: 1600px) {
+  .form-xxl-label-4 .col-form-label {
+    width: 4em; } }
+
+@media (min-width: 1600px) {
+  .form-xxl-label-5 .col-form-label {
+    width: 5em; } }
+
+@media (min-width: 1600px) {
+  .form-xxl-label-6 .col-form-label {
+    width: 6em; } }
+
+@media (min-width: 1600px) {
+  .form-xxl-label-7 .col-form-label {
+    width: 7em; } }
+
+.form-v1 .col-form-label {
+  white-space: nowrap;
+  display: block; }
+
+.form-v1 .form-group.row {
+  display: table;
+  table-layout: fixed; }
+  .form-v1 .form-group.row > div, .form-v1 .form-group.row > label {
+    display: table-cell;
+    vertical-align: top; }
+
+.select-v1 {
+  padding-right: 0.375rem; }
+
+.info-share {
+  text-align: right; }
+  .info-share .nativeShare-box {
+    display: inline-block; }
+
+.form-message .form-group {
+  width: 100%; }
+
+.form-message textarea {
+  height: 166px !important; }
+
+.nav-header-v3 {
+  width: 100%; }
